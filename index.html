@@ -3,263 +3,865 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Online Shop</title>
-    <!--  Start Font Awesome  -->
+    <title> Online Shopping </title>
+
+    <!--  google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--  Start Font Awsome -->
     <link rel="stylesheet" href="css/all.min.css">
+    <!--  Jquery UI -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <!-- Slick Slider css -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <!-- Slick Them -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <!-- Start Main StyleSheet -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <!--  Start Navigation  -->
-    <header class="header">
-                <div class="header-menu">
-                    <div class="container">
-                        <div class="menu">
-                            <div class="title"> <h1> Shop Online</h1></div>
-                            <div class="form">
-                                <input type="text" placeholder="Search For Product ..."> <i class="fas fa-search"></i>
-                            </div>
-                            <div class="cards">
-                                <div class="fas fa-heart"></div>
-                                <div class="fas fa-shopping-cart"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                            <div class="navigation">
-                               <nav class="navbar">
-                                    <ul class="links">
-                                        <li>Home</li>
-                                        <li>Shop <i class="fas fa-arrow-down"></i></li>
-                                        <li>Blogs</li>
-                                        <li>Pages <i class="fas fa-arrow-down"></i></li>
-                                        <li>Contact Us</li>
-                                    </ul>
-                                        <spna class="friday">Sell Big Friday</spna>
-                                </nav>
-                            </div>
-                        </div>
+<!--  Start Navbar  -->
+  <div class="navbar navbar-nav expand-md d-flex">
+      <div class="container">
+      
 
-                </div>
-                <!-- <div class="container">
-                    <div class="navigation">
-                       <nav class="navbar">
-                            <ul class="links">
-                                <li>Home</li>
-                                <li>Shop <i class="fas fa-arrow-down"></i></li>
-                                <li>Blogs</li>
-                                <li>Pages <i class="fas fa-arrow-down"></i></li>
-                                <li>Contact Us</li>
-                            </ul>
-                                <spna class="friday">Sell Big Friday</spna>
-                        </nav>
-                    </div>
-                </div> -->
-                        <!--  Start Navbar Menu -->
-                </section>
-    </header>
-    <!--  End Navigation -->
-    <!--  Start SideBar -->
-<div class="products">
-        <div class="container">
-                <div class="contents-navbar">
-                    <div class="left-side">
-                        <h2> All Categories :</h2>
-                        <ul class="lin">
-                            <li>Shoes</li>
-                            <li>Glasses</li>
-                            <li>Cloths</li>
-                            <li> Electonics</li>
-                            <li>Router & Switching</li>
-                            <li>Headphone & Speakers</li>
-                            <li>Computer & Laptop</li>
-                            <li>More Categories</li>
-                        </ul>
-                    </div>
-                    <div class="center-side"></div>
-                    <div class="right-side">
-                        <h2>Hot Deals</h2>
-                        <div class="produc">
+              <div class="col-lg-4 col-sm-12 my-3 ">
+                <a class="navbar-brand my-3"> Shopping Online</a>
+              </div>
 
-                            <div class="shoe">
-                                <img src="imags/cart13.jpg" alt="cart13">
-                                <div class="rate">
-                                    <!-- <div class="icons">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div> -->
-                                </div>
-                                <div class="add-card"> 
-                                    <button class="price"> $350</button>
-                                    <div class="icons">
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                        </div>
-                                    <button>Add To Cart</button>
-                                </div>
-                               
-                            </div>
-                        </div>
-                        <!--  Product 2 -->
-                        <div class="produc">
+            <div class="col-lg-4 ">
+               <div class="from-group d-flex">
+                <input type="text" name="" id="" class="form-control"">
+                <button type="submit" class="btn btn-danger py-3 px-3 "> <i class="fas fa-search"></i> </button>
+               </div>
+            </div>
 
-                                <div class="shoe">
-                                    <img src="imags/j3.jpg" alt="j3">
-
-                                    <div class="add-card"> 
-                                        <button class="price"> $550</button>
-                                        <div class="icons">
-                                                <i class="fas fa-star cols"></i>
-                                                <i class="fas fa-star cols"></i>
-                                                <i class="fas fa-star cols"></i>
-                                                <i class="fas fa-star cols"></i>
-                                                <i class="fas fa-star cols"></i>
-                                            </div>
-                                        <button>Add To Cart</button>
-                                    </div>
-                                   
-                                </div>
-                            </div>
-                    </div>
+            <div class="col-lg-4 col-sm-12">
+                <div class="status">
+                  <i class="fas fa-heart"></i>
+                  <span class="heat fw-bold text-light"> 80</span>
+                  <i class="fas fa-shopping-cart"></i>
+                  <span class="fw-bold cart text-light">10</span>
                 </div>
             </div>
+      </div>
+  </div>
+  <div class="sub-navs ">
+    <div class="container">
+
+      <ul class="navbar-nav-links px-2">
+        <div class="links d-flex fw-bold">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact </a>
+          </li>
+        </div>
+        <button type="submit" class="d-flex btn btn-danger" > Sell Friday </button>
+      </ul>
+    
+    </div>
+  </div>
+<!--  End Navbar  -->
+<!--  Main Section -->
+<main>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="side-links">
+                  <h1 class=" fw-bold text-center py-3"> Categories </h1>
+                    <ul class="navbar-nav fw-bold">
+                      <li class="nav-item"> Shoes</li>
+                      <li class="nav-item"> Glasses</li>
+                      <li class="nav-item"> Cloths</li>
+                      <li class="nav-item"> Headphones</li>
+                      <li class="nav-item"> Routers &  Switchs</li>
+                      <li class="nav-item"> Computer & Laptop</li>
+                      <li class="nav-item"> More ...</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="products">
+                  <div class="product">
+                      <a href="#">
+                        <img src="imags/product-2.jpg" alt="background">
+                      </a>
+                      <a href="#">
+                        <img src="imags/product-3.jpg" alt="background">
+                      </a>
+                      <a href="#">
+                        <img src="imags/product-4.jpg" alt="background">
+                      </a>
+                      <a href="#">
+                        <img src="imags/product-5.jpg" alt="background">
+                      </a>
+
+                  </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-3">
+              <div class="side-links">
+                <h1 class=" fw-bold text-center py-2"> Hot Deals </h1>
+                  <div class="card">
+                      <div class="card-title pt-2">
+                          <h2 class="text-center">  Shoe  Nikki</h2>
+                      </div>
+                      <div class="card-body" class="pb-2">
+                          <img src="imags/cart10.jpg"  alt="cart10">
+                      </div>
+                      <div class="card-footer d-flex">
+                          <div class="price">
+                            <span class="fw-bold"> 400$</span>
+                          </div>
+                          <div class="statu">
+                              <i class="fas fa-star col"></i>
+                              <i class="fas fa-star col"></i>
+                              <i class="fas fa-star col"></i>
+                              <i class="fas fa-star col"></i>
+                              <i class="fas fa-star col"></i>
+                          </div>
+                          <div class="offer">
+                              <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+        </div>
+        
+    </div>
+</main>
+<!--  Main Section -->
+
+<!--  Start Subscribe  -->
+<div class="subscribe bg-dark text-light">
+    <div class="container">
+      <h2 class="text-center py-2"> Subscribe for Newletters</h2>
+      <p class="text-center lead mx-2 "> 
+        Subscribe now to get least Offers and  our Services ,
+         get now notification about our least Products and now Features that post recently 
+         just send your email for us and we will informe you about everthing now here
+        </p>
+          <div class="boxes  py-3">
+            <div class="form-group d-flex">
+              <input type="text" name="" id=""  placeholder="Enter your Email" class="form-control">
+              <button class="btn text-center btn-danger btn-fit mx-3"> Send </button>
+            </div>
+          </div>
+    </div>
 </div>
-    <!--  End Sidebar -->
-    <!--  Start Recdent Release -->
-    <div class="recent">
-        <h2> Recent Release</h2>
-        <div class="recent-release">
-            <div class="container">             
-            <div class="recent-prod">
-
-                    <div class="produc">
-                            <div class="shoe">
-                                <img src="imags/cart1.jpg" alt="cart1">
-
-                                <div class="add-card"> 
-                                    <button class="price"> $550</button>
-                                    <div class="icons">
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                        </div>
-                                    <button>Add To Cart</button>
-                                </div>
-                               
+<!--  End  Subscribe  -->
+ <!--  Start Product -->
+    <div class="Recents">
+        <h1 class="text-center py-4"> Recent Release</h1>
+        <div class="container">
+          <div class="row">
+            <div class="Recent d-flex">
+                      <div class="card">
+                        <div class="card-title pt-2">
+                            <h2 class="text-center">  Shoe  For Man</h2>
+                        </div>
+                        <div class="card-body" class="pb-2">
+                            <img src="imags/cart3.jpg"  alt="cart3">
+                        </div>
+                        <div class="card-footer d-flex">
+                            <div class="price">
+                              <span class="fw-bold"> 400$</span>
+                            </div>
+                            <div class="statu">
+                                <i class="fas fa-star col"></i>
+                                <i class="fas fa-star col"></i>
+                                <i class="fas fa-star col"></i>
+                                <i class="fas fa-star col"></i>
+                                <i class="fas fa-star col"></i>
+                            </div>
+                            <div class="offer">
+                                <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
                             </div>
                         </div>
+                    </div>
 
-                    <div class="produc">
-                            <div class="shoe">
-                                <img src="imags/cart3.jpg" alt="cart3">
+                    <div class="card">
+                      <div class="card-title pt-2">
+                          <h2 class="text-center">  Shoe  Nikki</h2>
+                      </div>
+                      <div class="card-body" class="pb-2">
+                          <img src="imags/cart13.jpg"  alt="cart13">
+                      </div>
+                      <div class="card-footer d-flex">
+                          <div class="price">
+                            <span class="fw-bold"> 400$</span>
+                          </div>
+                          <div class="statu">
+                              <i class="fas fa-star col"></i>
+                              <i class="fas fa-star col"></i>
+                              <i class="fas fa-star col"></i>
+                              <i class="fas fa-star col"></i>
+                              <i class="fas fa-star col"></i>
+                          </div>
+                          <div class="offer">
+                              <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+                          </div>
+                      </div>
+                  </div>
 
-                                <div class="add-card"> 
-                                    <button class="price"> $550</button>
-                                    <div class="icons">
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                            <i class="fas fa-star cols"></i>
-                                        </div>
-                                    <button>Add To Cart</button>
-                                </div>
-                               
-                            </div>
+                  <div class="card">
+                    <div class="card-title pt-2">
+                        <h2 class="text-center">  Modern Cloths </h2>
+                    </div>
+                    <div class="card-body" class="pb-2">
+                        <img src="imags/cart4.jpg"  alt="cart4">
+                    </div>
+                    <div class="card-footer d-flex">
+                        <div class="price">
+                          <span class="fw-bold"> 400$</span>
                         </div>
-<!--  Prod 3 -->
-<div class="produc">
-        <div class="shoe">
-         <img src="imags/cart11.jpg" alt="cart6">
-
-            <div class="add-card"> 
-                <button class="price"> $550</button>
-                <div class="icons">
-                        <i class="fas fa-star cols"></i>
-                        <i class="fas fa-star cols"></i>
-                        <i class="fas fa-star cols"></i>
-                        <i class="fas fa-star cols"></i>
-                        <i class="fas fa-star cols"></i>
+                        <div class="statu">
+                            <i class="fas fa-star col"></i>
+                            <i class="fas fa-star col"></i>
+                            <i class="fas fa-star col"></i>
+                            <i class="fas fa-star col"></i>
+                            <i class="fas fa-star col"></i>
+                        </div>
+                        <div class="offer">
+                            <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+                        </div>
                     </div>
-                <button>Add To Cart</button>
+                </div>
+
+                  <div class="card">
+                    <div class="card-title pt-2">
+                        <h2 class="text-center"> Watches </h2>
+                    </div>
+                    <div class="card-body" class="pb-2">
+                        <img src="imags/cart2.jpg"  alt="cart2">
+                    </div>
+                    <div class="card-footer d-flex">
+                        <div class="price">
+                          <span class="fw-bold"> 400$</span>
+                        </div>
+                        <div class="statu">
+                            <i class="fas fa-star col"></i>
+                            <i class="fas fa-star col"></i>
+                            <i class="fas fa-star col"></i>
+                            <i class="fas fa-star col"></i>
+                            <i class="fas fa-star col"></i>
+                        </div>
+                        <div class="offer">
+                            <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-           
+
+
+            <div class="Recent  py-4">
+              <div class="card">
+                <div class="card-title pt-2">
+                    <h2 class="text-center">  Cravet and Shoes</h2>
+                </div>
+                <div class="card-body" class="pb-2">
+                    <img src="imags/cart10.jpg"  alt="cart10">
+                </div>
+                <div class="card-footer d-flex">
+                    <div class="price">
+                      <span class="fw-bold"> 400$</span>
+                    </div>
+                    <div class="statu">
+                        <i class="fas fa-star col"></i>
+                        <i class="fas fa-star col"></i>
+                        <i class="fas fa-star col"></i>
+                        <i class="fas fa-star col"></i>
+                        <i class="fas fa-star col"></i>
+                    </div>
+                    <div class="offer">
+                        <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+              <div class="card-title pt-2">
+                  <h2 class="text-center">  HD Camera </h2>
+              </div>
+              <div class="card-body" class="pb-2">
+                  <img src="imags/cart11.jpg"  alt="cart10">
+              </div>
+              <div class="card-footer d-flex">
+                  <div class="price">
+                    <span class="fw-bold"> 400$</span>
+                  </div>
+                  <div class="statu">
+                      <i class="fas fa-star col"></i>
+                      <i class="fas fa-star col"></i>
+                      <i class="fas fa-star col"></i>
+                      <i class="fas fa-star col"></i>
+                      <i class="fas fa-star col"></i>
+                  </div>
+                  <div class="offer">
+                      <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+                  </div>
+              </div>
+          </div>
+
+          <div class="card">
+            <div class="card-title pt-2">
+                <h2 class="text-center">  Shoe  Nikki</h2>
+            </div>
+            <div class="card-body" class="pb-2">
+                <img src="imags/cart12.jpg"  alt="cart10">
+            </div>
+            <div class="card-footer d-flex">
+                <div class="price">
+                  <span class="fw-bold"> 400$</span>
+                </div>
+                <div class="statu">
+                    <i class="fas fa-star col"></i>
+                    <i class="fas fa-star col"></i>
+                    <i class="fas fa-star col"></i>
+                    <i class="fas fa-star col"></i>
+                    <i class="fas fa-star col"></i>
+                </div>
+                <div class="offer">
+                    <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+                </div>
+            </div>
+        </div>
+
+          <div class="card">
+            <div class="card-title pt-2">
+                <h2 class="text-center">  Shoe  Nikki</h2>
+            </div>
+            <div class="card-body" class="pb-2">
+                <img src="imags/cart14.jpg"  alt="cart14">
+            </div>
+            <div class="card-footer d-flex">
+                <div class="price">
+                  <span class="fw-bold"> 400$</span>
+                </div>
+                <div class="statu">
+                    <i class="fas fa-star col"></i>
+                    <i class="fas fa-star col"></i>
+                    <i class="fas fa-star col"></i>
+                    <i class="fas fa-star col"></i>
+                    <i class="fas fa-star col"></i>
+                </div>
+                <div class="offer">
+                    <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+          </div>
+          
         </div>
     </div>
-<!--   Product 4 -->
-        <div class="produc">
-                <div class="shoe">
-                    <img src="imags/cart10.jpg" alt="cart10">  
+ <!--  End Product -->
+ <!-- Services  -->
+ <div class="container">
+  <h1 class="text-center fw-bold py-3"> Services</h1>
+    <!-- <div class="services d-flex">
+      <div class="transport">
+          <h2 class="text-center py-2">International </h2>
+          <i class="fas fa-plane"> </i>
+      </div>
+   
+      <div class="home">
+        <h2 class="text-center py-2"> Home</h2>
+        <i class="fas fa-shipping-fast"></i>
+      </div>
+      <div class="market">
+        <h2 class="text-center py-2"> Market Place </h2>
+        <i class="fas fa-users"></i>
+      </div>
+      <div class="email">
+        <h2 class="text-center py-2"> Replace </h2>
+        <i class="fas fa-share"></i>
+      </div>
+      <div class="support">
+        <h2 class="text-center py-2"> Support 24/24 </h2>
+        <i class="fas fa-headset"></i>
+      </div>
+    </div> -->
+    <div class="service">
+      <div class="brand-item"> <img src="imags/intern.jpg" alt=""></div>
+      <div class="brand-item"><img src="imags/work1.jpg" alt=""></div>
+      <div class="brand-item"><img src="imags/market.jpg" alt=""></div>
+      <div class="brand-item"><img src="imags/support.jpg" alt=""></div>
+      <div class="brand-item"><img src="imags/market.jpg" alt=""></div>
+  </div>
+ </div>
+ <!-- Services  -->
+ <!--  Start Product -->
+ <div class="produ">
+  <div class="container">
+      <h1 class="text-center py-3"> Products</h1>
+      <div class="Recent  py-4">
+        <div class="card">
+          <div class="card-title pt-2">
+              <h2 class="text-center">  Shoe Addidas</h2>
+          </div>
+          <div class="card-body" class="pb-2">
+              <img src="imags/cart15.jpg"  alt="cart15">
+          </div>
+          <div class="card-footer d-flex">
+              <div class="price">
+                <span class="fw-bold"> 400$</span>
+              </div>
+              <div class="statu">
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+              </div>
+              <div class="offer">
+                  <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+              </div>
+          </div>
+      </div>
 
-                    <div class="add-card"> 
-                        <button class="price"> $550</button>
-                        <div class="icons">
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                            </div>
-                        <button>Add To Cart</button>
-                    </div>
-                
-                </div>
+      <div class="card">
+        <div class="card-title pt-2">
+            <h2 class="text-center">  Cloths </h2>
+        </div>
+        <div class="card-body" class="pb-2">
+            <img src="imags/cart1.jpg"  alt="cart1">
+        </div>
+        <div class="card-footer d-flex">
+            <div class="price">
+              <span class="fw-bold"> 400$</span>
             </div>
-<!--  5 -->
-
-        <div class="produc">
-                <div class="shoe">
-                    <img src="imags/cart18.jpg" alt="cart18">  
-
-                    <div class="add-card"> 
-                        <button class="price"> $350</button>
-                        <div class="icons">
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                            </div>
-                        <button>Add To Cart</button>
-                    </div>
-                
-                </div>
+            <div class="statu">
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
             </div>
-        <!-- 
-            6
-        -->
-        <div class="produc">
-                <div class="shoe">
-                    <img src="imags/cart14.jpg" alt="cart14">  
-
-                    <div class="add-card"> 
-                        <button class="price"> $250</button>
-                        <div class="icons">
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                                <i class="fas fa-star cols"></i>
-                            </div>
-                        <button>Add To Cart</button>
-                    </div>
-                
-                </div>
-            </div>
-                </div>
+            <div class="offer">
+                <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
             </div>
         </div>
     </div>
-    <!--  End Recent Release -->
+
+    <div class="card">
+      <div class="card-title pt-2">
+          <h2 class="text-center">  Laptop </h2>
+      </div>
+      <div class="card-body" class="pb-2">
+          <img src="imags/cart8.jpg"  alt="cart8">
+      </div>
+      <div class="card-footer d-flex">
+          <div class="price">
+            <span class="fw-bold"> 400$</span>
+          </div>
+          <div class="statu">
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+          </div>
+          <div class="offer">
+              <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+          </div>
+      </div>
+  </div>
+
+    <div class="card">
+      <div class="card-title pt-2">
+          <h2 class="text-center">  I-phone </h2>
+      </div>
+      <div class="card-body" class="pb-2">
+          <img src="imags/cart7.jpg"  alt="cart7">
+      </div>
+      <div class="card-footer d-flex">
+          <div class="price">
+            <span class="fw-bold"> 400$</span>
+          </div>
+          <div class="statu">
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+          </div>
+          <div class="offer">
+              <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+          </div>
+      </div>
+  </div>
+
+      </div>
+
+      <div class="Recent  py-4">
+        <div class="card">
+          <div class="card-title pt-2">
+              <h2 class="text-center">  Jacket </h2>
+          </div>
+          <div class="card-body" class="pb-2">
+              <img src="imags/j2.jpg"  alt="j2">
+          </div>
+          <div class="card-footer d-flex">
+              <div class="price">
+                <span class="fw-bold"> 400$</span>
+              </div>
+              <div class="statu">
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+              </div>
+              <div class="offer">
+                  <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+              </div>
+          </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title pt-2">
+            <h2 class="text-center">  Man Cloth </h2>
+        </div>
+        <div class="card-body" class="pb-2">
+            <img src="imags/cart18.jpg"  alt="cart18">
+        </div>
+        <div class="card-footer d-flex">
+            <div class="price">
+              <span class="fw-bold"> 400$</span>
+            </div>
+            <div class="statu">
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+            </div>
+            <div class="offer">
+                <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title pt-2">
+          <h2 class="text-center">  Viels & Dresses </h2>
+      </div>
+      <div class="card-body" class="pb-2">
+          <img src="imags/cart19.jpg"  alt="cart19">
+      </div>
+      <div class="card-footer d-flex">
+          <div class="price">
+            <span class="fw-bold"> 400$</span>
+          </div>
+          <div class="statu">
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+          </div>
+          <div class="offer">
+              <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+          </div>
+      </div>
+  </div>
+
+    <div class="card">
+      <div class="card-title pt-2">
+          <h2 class="text-center">  T_Shirt </h2>
+      </div>
+      <div class="card-body" class="pb-2">
+          <img src="imags/j7.jpg"  alt="j7">
+      </div>
+      <div class="card-footer d-flex">
+          <div class="price">
+            <span class="fw-bold"> 400$</span>
+          </div>
+          <div class="statu">
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+          </div>
+          <div class="offer">
+              <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+          </div>
+      </div>
+  </div>
+
+      </div>
+
+      <div class="Recent  py-4">
+      <div class="card">
+        <div class="card-title pt-2">
+            <h2 class="text-center">  Cravet and Shoes</h2>
+        </div>
+        <div class="card-body" class="pb-2">
+            <img src="imags/cart10.jpg"  alt="cart10">
+        </div>
+        <div class="card-footer d-flex">
+            <div class="price">
+              <span class="fw-bold"> 400$</span>
+            </div>
+            <div class="statu">
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+            </div>
+            <div class="offer">
+                <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+      <div class="card-title pt-2">
+          <h2 class="text-center">  Modern Jacket  </h2>
+      </div>
+      <div class="card-body" class="pb-2">
+          <img src="imags/j5.jpg"  alt="j5">
+      </div>
+      <div class="card-footer d-flex">
+          <div class="price">
+            <span class="fw-bold"> 400$</span>
+          </div>
+          <div class="statu">
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+          </div>
+          <div class="offer">
+              <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+          </div>
+      </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title pt-2">
+        <h2 class="text-center">  Shoe  Nikki</h2>
+    </div>
+    <div class="card-body" class="pb-2">
+        <img src="imags/cart12.jpg"  alt="cart10">
+    </div>
+    <div class="card-footer d-flex">
+        <div class="price">
+          <span class="fw-bold"> 400$</span>
+        </div>
+        <div class="statu">
+            <i class="fas fa-star col"></i>
+            <i class="fas fa-star col"></i>
+            <i class="fas fa-star col"></i>
+            <i class="fas fa-star col"></i>
+            <i class="fas fa-star col"></i>
+        </div>
+        <div class="offer">
+            <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+        </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title pt-2">
+        <h2 class="text-center">  Man cloth </h2>
+    </div>
+    <div class="card-body" class="pb-2">
+        <img src="imags/cart8.jpg"  alt="cart8">
+    </div>
+    <div class="card-footer d-flex">
+        <div class="price">
+          <span class="fw-bold"> 400$</span>
+        </div>
+        <div class="statu">
+            <i class="fas fa-star col"></i>
+            <i class="fas fa-star col"></i>
+            <i class="fas fa-star col"></i>
+            <i class="fas fa-star col"></i>
+            <i class="fas fa-star col"></i>
+        </div>
+        <div class="offer">
+            <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+        </div>
+    </div>
+  </div>
+
+      </div>
+
+      <div class="Recent  py-4">
+        <div class="card">
+          <div class="card-title pt-2">
+              <h2 class="text-center">Mobile </h2>
+          </div>
+          <div class="card-body" class="pb-2">
+              <img src="imags/phone-4.jpg"  alt="phone-4">
+          </div>
+          <div class="card-footer d-flex">
+              <div class="price">
+                <span class="fw-bold"> 400$</span>
+              </div>
+              <div class="statu">
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+                  <i class="fas fa-star col"></i>
+              </div>
+              <div class="offer">
+                  <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+              </div>
+          </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-title pt-2">
+            <h2 class="text-center"> Mack Book </h2>
+        </div>
+        <div class="card-body" class="pb-2">
+            <img src="imags/phone-3.jpg"  alt="phone-3">
+        </div>
+        <div class="card-footer d-flex">
+            <div class="price">
+              <span class="fw-bold"> 400$</span>
+            </div>
+            <div class="statu">
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+                <i class="fas fa-star col"></i>
+            </div>
+            <div class="offer">
+                <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title pt-2">
+          <h2 class="text-center">  I-Pad</h2>
+      </div>
+      <div class="card-body" class="pb-2">
+          <img src="imags/phone-2.jpg"  alt="phone-2">
+      </div>
+      <div class="card-footer d-flex">
+          <div class="price">
+            <span class="fw-bold"> 400$</span>
+          </div>
+          <div class="statu">
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+          </div>
+          <div class="offer">
+              <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+          </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-title pt-2">
+          <h2 class="text-center">  I-Phone </h2>
+      </div>
+      <div class="card-body" class="pb-2">
+          <img src="imags/phone-1.jpg"  alt="phone-1">
+      </div>
+      <div class="card-footer d-flex">
+          <div class="price">
+            <span class="fw-bold"> 400$</span>
+          </div>
+          <div class="statu">
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+              <i class="fas fa-star col"></i>
+          </div>
+          <div class="offer">
+              <button class="btn btn-danger "> <i class="fas fa-shopping-cart mx-3"></i></button>
+          </div>
+      </div>
+    </div>
+      </div>
+
+    </div>
+ </div>
+ <!--  End Product -->
+ <!--  Start Footer -->
+ <footer >
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-4"> 
+              <div class="about-us py-4">
+                <a href="#" class="navbar-brand text-danger fw-bold text-light"> Shopping Online</a>
+                <p class="py-2 text-light"> We are a Company that exerce online E-Commerce Through our website we provide Products For all People kind: </p>
+                <ul class="navbar-nav text-light">
+                  <li class="nav-item"> Kids </li>
+                  <li class="nav-item"> Men </li>
+                  <li class="nav-item"> Women </li>
+                  <li class="nav-item"> Body & Girls</li>
+               
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="socials py-4">
+                <a href="#" class="navbar-brand text-danger fw-bold text-light"> Social Links</a>
+                <div class="social py-2">
+                  <i class="fab fa-facebook"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-linkedin"></i>
+                  <i class="fab fa-instagram"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4"> 
+              <div class="sub py-4">
+                <a href="#" class="navbar-brand text-danger  text-center fw-bold text-light"> Subscribe for Newletters </a>
+                <div class="form-group my-2">
+                  <input type="text" name="" id="" class="form-control" placeholder="Enter Your Email..." required>
+                  <textarea rows="4" cols="5" class="form-control my-3" placeholder="Message..."></textarea>
+                  <button class="btn btn-danger my-3"> Send </button>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+ </footer>
+ <!--  End footer -->
+<!-- js Slick Slider -->
+    <!--  Start Scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- js Slick  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <!--  Start Main Js File -->
     <script src="js/main.js"></script>
 </body>
